@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "05c5ba5d-9837-4f52-aaaa-4478d89e7746",
+            "Value": {
+                "id": "33d9c408-38fc-40ab-87d3-2b0fa47fc883",
+                "resourcePath": "objects\\obj_click\\obj_click.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "118850a1-04e2-4302-b438-654e55a0de22",
             "Value": {
                 "id": "5ada765e-a6ca-47aa-bee9-edad654a3a05",
@@ -68,6 +76,14 @@
                 "id": "487b401f-e4f1-4ee8-baf8-c4771c3c47bc",
                 "resourcePath": "views\\392c2053-0cdd-4d4b-b0b0-cee3b772de1e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3a4c6ca5-fb90-4feb-b7fe-92be6216f6f7",
+            "Value": {
+                "id": "fe3d0314-55b9-4d72-8995-0826d0ba46a8",
+                "resourcePath": "objects\\obj_ClientType_Controller\\obj_ClientType_Controller.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -116,6 +132,14 @@
                 "id": "0b5b81a4-d2cd-4be0-be79-45b8394440db",
                 "resourcePath": "views\\8425d8f3-51e3-4b60-bda5-1744e0a210da.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9caffd1b-8a21-4956-87f5-490a2a7aabfd",
+            "Value": {
+                "id": "42e051cd-f8b7-4b55-9382-735c1f176485",
+                "resourcePath": "fonts\\font0\\font0.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -215,6 +239,22 @@
             }
         },
         {
+            "Key": "ee80a0be-95c8-41f2-802a-810c4cdf4722",
+            "Value": {
+                "id": "a1131b88-389a-468d-8feb-62f15af1c670",
+                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f1ea155b-8853-4ac9-8b87-68bd45e29712",
+            "Value": {
+                "id": "939e16f0-e427-485b-a4e8-56aa9481e585",
+                "resourcePath": "scripts\\scr_received_packet\\scr_received_packet.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f6c28840-8d48-433f-bf43-f153c4651e7e",
             "Value": {
                 "id": "7e1858be-399a-4727-95cd-91bc4fa6e57b",
@@ -224,7 +264,7 @@
         }
     ],
     "script_order": [
-        
+        "f1ea155b-8853-4ac9-8b87-68bd45e29712"
     ],
     "tutorial": ""
 }
