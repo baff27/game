@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "abbc0eb0-05e1-4539-b4f7-4bb9cbc0f3a0",
+            "Value": {
+                "id": "926c0824-bcdc-4ca2-8898-4b0da6d71611",
+                "resourcePath": "rooms\\Character_Creation\\Character_Creation.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "c1063481-ec13-4112-8711-3b9ba5078c88",
             "Value": {
                 "id": "f8a0e537-1851-450e-9458-794edd5e2b26",
@@ -282,7 +290,7 @@
             "Key": "ee80a0be-95c8-41f2-802a-810c4cdf4722",
             "Value": {
                 "id": "a1131b88-389a-468d-8feb-62f15af1c670",
-                "resourcePath": "rooms\\room2\\room2.yy",
+                "resourcePath": "rooms\\Menu\\Menu.yy",
                 "resourceType": "GMRoom"
             }
         },
