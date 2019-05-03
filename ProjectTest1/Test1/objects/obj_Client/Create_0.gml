@@ -2,7 +2,7 @@
 // You can write your code in this editor
 var type = network_socket_tcp; //Defining Socket
 var ip = get_string("Server: ","");
-var port = 25653; //Port to connect through
+var port = 25565; //Port to connect through
 socket = network_create_socket(network_socket_tcp);
 connection = network_connect(socket,ip,port); //Creates a connection to our socket, server, and port
 
