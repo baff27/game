@@ -11,6 +11,6 @@ switch(message_id) {
         var mx = buffer_read(buffer,buffer_u16); //Reads our unsigned 16 Bit Integer from our buffer and assigns it to the variable mx. [Buffer equals: mouse_y] -We deleted our mouse_x from the buffer upon reading it
         var my = buffer_read(buffer,buffer_u16); //Reads our unsigned 16 Bit Integer from our buffer and assigns it to the variable my. [Buffer equals:] -We deleted out mouse_y from the buffer upon reading it.
         //Create the click instance on our server
-		instance_create_layer(mx,my,room2,obj_click);
+		instance_create_layer(mx,my,Menu,obj_click);
         break;
 }

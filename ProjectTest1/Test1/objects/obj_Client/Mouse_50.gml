@@ -1,7 +1,7 @@
 /// @description Send a click to the server
 // You can write your code in this editor
 
-instance_create_layer(mouse_x,mouse_y,room2,obj_click);
+instance_create_layer(mouse_x,mouse_y,Menu,obj_click);
 //Write the click to buffer.
 buffer_seek(buffer,buffer_seek_start,0);//Checks the beginning of the buffer
 buffer_write(buffer,buffer_u8,1); //Writes our ID to an unsigned positive 8-bit integer (0-256) to our buffer. [Our Buffer looks like: 1]
