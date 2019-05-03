@@ -10,6 +10,8 @@ switch(type_event){
 		//Remove Client from the socket list
 		position = ds_list_find_index(socket,async_load[? "socket"]); //Locate player in the Socket List
 		ds_list_delete(socket,position); //Delete player from the socket list
+		ds_list_delete(user_list,position);//Delete Player form the player list
+		server_update_users();
 		break;
 	case network_type_data: //If we are receiving data
 		//Handle the data
