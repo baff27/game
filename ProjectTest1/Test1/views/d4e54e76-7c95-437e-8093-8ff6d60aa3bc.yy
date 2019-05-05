@@ -10,7 +10,9 @@
         "4eb2a298-1d29-4230-a724-2b3fcd5dc01b",
         "c0b1dcac-6fb6-4415-89de-c9b6d93562f2",
         "cd266c91-55d0-4247-8f22-34154b77f139",
-        "f8d42a1e-affc-4c16-9c6e-e583d9342d46"
+        "cb22c837-db54-47af-8c8e-490d67155542",
+        "f8d42a1e-affc-4c16-9c6e-e583d9342d46",
+        "993a58d0-f25d-4c2a-9e99-dbfb1e1a88ed"
     ],
     "filterType": "GMSprite",
     "folderName": "Crono",
