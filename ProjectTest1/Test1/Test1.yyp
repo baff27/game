@@ -31,6 +31,22 @@
     },
     "resources": [
         {
+            "Key": "018a6200-1b2b-4235-8810-b68604138c10",
+            "Value": {
+                "id": "b7c9247d-a343-4804-a289-d9c11d6ce7bd",
+                "resourcePath": "sprites\\Frog_RightFace\\Frog_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "04747d99-7d47-49b8-938b-bc2a7f0c2dce",
+            "Value": {
+                "id": "102c6b99-bf60-4d34-96e7-ce84f3f8daf4",
+                "resourcePath": "sprites\\Frog_LeftFace\\Frog_LeftFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "059bcbc3-61fd-4c37-b159-2c966543adf1",
             "Value": {
                 "id": "71efee60-0610-4061-92fa-9f1a14de5e7c",
@@ -44,6 +60,14 @@
                 "id": "33d9c408-38fc-40ab-87d3-2b0fa47fc883",
                 "resourcePath": "objects\\obj_click\\obj_click.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "103be2f5-f2a5-4bf0-8086-2cab53817c8c",
+            "Value": {
+                "id": "76bbc2a5-44d1-4e5a-ae4b-f182459c69da",
+                "resourcePath": "sprites\\Nu_LeftFace\\Nu_LeftFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +175,14 @@
             }
         },
         {
+            "Key": "3d9672d8-b0cf-428e-83e1-e933b6502bfc",
+            "Value": {
+                "id": "ba598ec3-ec6e-4168-a920-f87843f25a7b",
+                "resourcePath": "views\\3d9672d8-b0cf-428e-83e1-e933b6502bfc.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "3eab809a-59ca-44b6-82a7-ef0deeeab1f6",
             "Value": {
                 "id": "03dbd2ab-54c2-4730-bac9-62de6066db8d",
@@ -172,6 +204,14 @@
                 "id": "0c801d34-3894-47a4-a6b7-2f9de767b5f3",
                 "resourcePath": "objects\\obj_savenload\\obj_savenload.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a65f67f-36ee-4203-8676-3085829a9b0e",
+            "Value": {
+                "id": "aa6b7220-5edf-468a-a53c-de2e8ee4ce17",
+                "resourcePath": "sprites\\Nu_DownFace\\Nu_DownFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,10 +247,34 @@
             }
         },
         {
+            "Key": "5cc61b76-e2eb-404e-8d74-cf8eaca4d1cf",
+            "Value": {
+                "id": "5c44f596-bdaf-4e12-a122-70b266a8a8f5",
+                "resourcePath": "sprites\\Frog_LeftFace_Walking\\Frog_LeftFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5f71db03-d5ac-4c97-9f91-f904ca180194",
+            "Value": {
+                "id": "09f978e2-cb1e-4bdd-965d-9caf40dac46a",
+                "resourcePath": "views\\5f71db03-d5ac-4c97-9f91-f904ca180194.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "674703c1-0c27-4e7d-ba46-7d31d53fe011",
             "Value": {
                 "id": "b0e537c4-b38b-41e1-a45f-dd35ce604e4d",
                 "resourcePath": "sprites\\ChatBox\\ChatBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "757d9e3d-95a9-49d4-8ad8-108f2587a896",
+            "Value": {
+                "id": "c003a700-2b3b-4189-b9ce-3324cc7fb798",
+                "resourcePath": "sprites\\Frog_DownFace_Walking\\Frog_DownFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -247,6 +311,14 @@
             }
         },
         {
+            "Key": "8125fac2-0da1-416c-9682-19f7cc4e21a4",
+            "Value": {
+                "id": "f8f96c31-3e77-4959-bc38-bc21d9143d9c",
+                "resourcePath": "sprites\\Frog_DownFace\\Frog_DownFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8425d8f3-51e3-4b60-bda5-1744e0a210da",
             "Value": {
                 "id": "0b5b81a4-d2cd-4be0-be79-45b8394440db",
@@ -267,6 +339,14 @@
             "Value": {
                 "id": "4fc4ce25-4111-4add-9fb4-9a3743e0ce57",
                 "resourcePath": "sprites\\Crono_UpFace\\Crono_UpFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "90ea1c5d-f0b5-46c9-a575-68eec1457513",
+            "Value": {
+                "id": "823fb6aa-45a8-4f71-8e24-ac21098b849e",
+                "resourcePath": "sprites\\Frog_UpFace_Walking\\Frog_UpFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -375,6 +455,14 @@
             }
         },
         {
+            "Key": "b9712b3d-83cb-40c7-ad23-586a9232a337",
+            "Value": {
+                "id": "073eedea-7ddf-4043-a86b-064bc923fddc",
+                "resourcePath": "sprites\\Frog_UpFace\\Frog_UpFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfacd761-4d7b-46a3-9de6-83fb279c867a",
             "Value": {
                 "id": "ca9ac8c9-29c1-4387-8dcf-925dbe82dc35",
@@ -471,6 +559,14 @@
             }
         },
         {
+            "Key": "d88a865e-ba41-4210-bf7a-425fb00bf686",
+            "Value": {
+                "id": "48591e01-2a29-4e12-957a-1c4b3c2f54ec",
+                "resourcePath": "sprites\\Nu_DownFace_Walking\\Nu_DownFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
             "Value": {
                 "id": "3b7c6d62-1225-4e0d-be36-0e2d62a0587a",
@@ -484,6 +580,14 @@
                 "id": "1e230657-b37b-4fc8-9d3f-f4e62d4ebd9a",
                 "resourcePath": "views\\e618bebb-373e-4914-bc59-811f2ad4046f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e6944fe2-fdbe-4ff9-b955-18c753a73923",
+            "Value": {
+                "id": "1c99b720-93d7-4938-a236-3ff5ad8d64be",
+                "resourcePath": "sprites\\Frog_RightFace_Walking\\Frog_RightFace_Walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -563,6 +667,14 @@
             "Value": {
                 "id": "b59133d0-ddd8-405a-bc5a-b28ee8fb4cf7",
                 "resourcePath": "sprites\\Crono_RightFace\\Crono_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fff95d64-2987-4095-a215-6a3b3a02c577",
+            "Value": {
+                "id": "232f0c09-4395-4039-be6c-25ebb083988a",
+                "resourcePath": "sprites\\Nu_LeftFace_Walking\\Nu_LeftFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         }
