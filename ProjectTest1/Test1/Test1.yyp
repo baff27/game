@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "05640d98-1c58-427e-9734-c0adfa6456f2",
+            "Value": {
+                "id": "f04f9eb6-95fa-4ef2-99e3-8f163ce76002",
+                "resourcePath": "sprites\\Gremlin_DownFace_Walking\\Gremlin_DownFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "059bcbc3-61fd-4c37-b159-2c966543adf1",
             "Value": {
                 "id": "71efee60-0610-4061-92fa-9f1a14de5e7c",
@@ -60,6 +68,14 @@
                 "id": "33d9c408-38fc-40ab-87d3-2b0fa47fc883",
                 "resourcePath": "objects\\obj_click\\obj_click.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "065f3bce-ab04-4181-bef7-6858e0d91184",
+            "Value": {
+                "id": "63d4aa2d-2110-445a-a10e-b1a6b5e005c6",
+                "resourcePath": "sprites\\Gremlin_RightFace_Walking\\Gremlin_RightFace_Walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -95,6 +111,30 @@
             }
         },
         {
+            "Key": "1d647123-2c36-4067-8298-3662c579ce09",
+            "Value": {
+                "id": "6b9e04c8-414a-4a76-8357-4b39e68b02b7",
+                "resourcePath": "sprites\\Robo_LeftFace\\Robo_LeftFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2009bd81-14fe-4c35-8952-f9d7b5594c07",
+            "Value": {
+                "id": "82a859d4-3ed1-46ba-890e-4e5ba5f96551",
+                "resourcePath": "sprites\\Rat_RightFace\\Rat_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "22b11696-0382-4ac5-b55a-18fdc8492d35",
+            "Value": {
+                "id": "a5989e09-bb12-4812-8183-7fd5fe94b022",
+                "resourcePath": "sprites\\Gremlin_LeftFace_Walking\\Gremlin_LeftFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ec70cac-ab31-4782-8751-f6f651fb613f",
             "Value": {
                 "id": "60eb42d0-45c6-4ef2-9d8e-d3faf51db934",
@@ -116,6 +156,22 @@
                 "id": "930f9bdc-c97f-4046-bf71-cd130284716e",
                 "resourcePath": "views\\311efa3b-54cf-4dc5-95f0-1029fb31501c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "314a4ee7-cd13-4b80-b9a8-bcdb5483514a",
+            "Value": {
+                "id": "5e639315-53cc-4f0a-87f0-6b8c944b713d",
+                "resourcePath": "sprites\\Username_Pass_TextBox_Sprite\\Username_Pass_TextBox_Sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "361d8dee-3ed9-4c93-807d-6062f02cd7b9",
+            "Value": {
+                "id": "139446fa-9b1f-4fcd-8bd5-1fef9bd3eda4",
+                "resourcePath": "sprites\\Gremlin_UpFace\\Gremlin_UpFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -159,11 +215,11 @@
             }
         },
         {
-            "Key": "3b5f753c-e12c-45a9-9b20-9bd8c1c458fb",
+            "Key": "3bfe2f54-737e-4abe-b03b-65b441c67981",
             "Value": {
-                "id": "fab3624e-014d-4273-aecc-6f27beda1507",
-                "resourcePath": "sprites\\Crono_SpriteMap\\Crono_SpriteMap.yy",
-                "resourceType": "GMSprite"
+                "id": "c9441b18-c386-4942-b18d-d5e88d590c48",
+                "resourcePath": "views\\3bfe2f54-737e-4abe-b03b-65b441c67981.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -172,6 +228,14 @@
                 "id": "c5fc823f-f6c2-4b65-8332-623184ce8c10",
                 "resourcePath": "views\\3d20f677-b758-4738-a9b3-eada53ed94ff.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3d6070f4-8a6f-422d-ab7f-ba1774655ee5",
+            "Value": {
+                "id": "7e6592c5-6ab2-4eff-9b69-64a49e48cd3d",
+                "resourcePath": "objects\\obj_Client_OLD\\obj_Client_OLD.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -239,6 +303,46 @@
             }
         },
         {
+            "Key": "53a05947-82e6-4f27-8541-7543562ac5f9",
+            "Value": {
+                "id": "2426e017-bc45-4791-8ba1-bf7268eac802",
+                "resourcePath": "sprites\\Rat_UpFace\\Rat_UpFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "54f5fec7-013b-4989-8bfa-5fbd168cd950",
+            "Value": {
+                "id": "6e39e8f2-038a-4d5f-96a1-f97fcf5c38e2",
+                "resourcePath": "sprites\\Robo_UpFace_Walking\\Robo_UpFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56051eab-0520-4f93-ac9e-0d4df6c07f3d",
+            "Value": {
+                "id": "7ca8fa81-67e3-4863-9072-af5067e12e7d",
+                "resourcePath": "sprites\\Robo_DownFace_Walking\\Robo_DownFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "56a825f6-faad-4048-a5db-afc0cfe37ae3",
+            "Value": {
+                "id": "4d91da8f-a03b-4a7c-98ae-3499e65d59bc",
+                "resourcePath": "sprites\\Nu_RightFace\\Nu_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5af91d3a-46a5-44aa-af61-b603890233f5",
+            "Value": {
+                "id": "1ed32f34-56c8-41d6-9cf1-9eb4160372aa",
+                "resourcePath": "sprites\\Rat_LeftFace\\Rat_LeftFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5b961da6-a4fc-422d-901a-c71d4537c2dc",
             "Value": {
                 "id": "6eec49e2-030e-4598-8ddd-b620fb67cd71",
@@ -263,10 +367,26 @@
             }
         },
         {
+            "Key": "5f86be24-cfd1-4e70-947d-7255a409a57e",
+            "Value": {
+                "id": "0fc7a1df-20bc-4791-913b-fa3a3287e6c7",
+                "resourcePath": "sprites\\CharacterCreation_Sprite\\CharacterCreation_Sprite.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "674703c1-0c27-4e7d-ba46-7d31d53fe011",
             "Value": {
                 "id": "b0e537c4-b38b-41e1-a45f-dd35ce604e4d",
                 "resourcePath": "sprites\\ChatBox\\ChatBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c836fe6-5ef7-4b80-96ff-db69af13bf40",
+            "Value": {
+                "id": "5b2f3944-9f35-4f8d-ba67-91e7d3baee86",
+                "resourcePath": "sprites\\Gremlin_UpFace_Walking\\Gremlin_UpFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -292,6 +412,14 @@
                 "id": "757469f9-913a-436c-8b50-8770123b49b4",
                 "resourcePath": "views\\78bb8323-e853-4cdf-9af4-6c3034844abb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7b00f44f-2644-4980-9801-07ff308321dc",
+            "Value": {
+                "id": "bb0d6ce7-1bf6-4c69-ae93-897e30be67fc",
+                "resourcePath": "sprites\\Robo_DownFace\\Robo_DownFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -351,6 +479,14 @@
             }
         },
         {
+            "Key": "9293cc3b-2ed9-49c6-a0a9-494a16352e28",
+            "Value": {
+                "id": "e0b330fa-42a7-4574-be25-3a1d9ee569b0",
+                "resourcePath": "sprites\\Rat_DownFace_Walking\\Rat_DownFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
             "Value": {
                 "id": "71426d74-736e-4f5d-b0ed-4ac254cdc5e1",
@@ -372,6 +508,14 @@
                 "id": "42e051cd-f8b7-4b55-9382-735c1f176485",
                 "resourcePath": "fonts\\font0\\font0.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "9f107a96-6ceb-4eaa-980c-940bca6e8611",
+            "Value": {
+                "id": "b286db3e-9b8a-44dc-9e9a-94e6478dffb2",
+                "resourcePath": "views\\9f107a96-6ceb-4eaa-980c-940bca6e8611.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -404,6 +548,14 @@
                 "id": "8a47af4f-9af5-4405-b0c0-85675b32fa3e",
                 "resourcePath": "views\\a3a27af3-cd78-4751-a83c-f1a31e6c5098.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a458a541-be63-43b0-a5d3-9789861e1504",
+            "Value": {
+                "id": "48d9930a-dac7-451f-bdc5-0533cdc0a21f",
+                "resourcePath": "sprites\\Nu_UpFace\\Nu_UpFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,6 +599,14 @@
             }
         },
         {
+            "Key": "ad4b78c8-2c0d-4506-8ec4-0d4b9973522a",
+            "Value": {
+                "id": "35b8ddda-d6e2-429f-ace3-de5d7c57892c",
+                "resourcePath": "sprites\\Robo_UpFace\\Robo_UpFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b727c4bb-1e89-44c1-8e87-0d4cbe1f3b2c",
             "Value": {
                 "id": "5da75076-8598-4d2f-98a9-7d3090217860",
@@ -455,10 +615,34 @@
             }
         },
         {
+            "Key": "b74cdfe1-f40f-4974-9ef5-10aab1915042",
+            "Value": {
+                "id": "9d186a44-b36a-443c-88a6-cfea1cc102c7",
+                "resourcePath": "sprites\\Gremlin_LeftFace\\Gremlin_LeftFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b8524cd4-906a-4a48-b145-953ba0fe7534",
+            "Value": {
+                "id": "59e4f442-5b53-44e9-ab46-8b459b92a198",
+                "resourcePath": "sprites\\Rat_LeftFace_Walking\\Rat_LeftFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b9712b3d-83cb-40c7-ad23-586a9232a337",
             "Value": {
                 "id": "073eedea-7ddf-4043-a86b-064bc923fddc",
                 "resourcePath": "sprites\\Frog_UpFace\\Frog_UpFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ba1991c7-01d9-4c4a-b714-d0171a2a4914",
+            "Value": {
+                "id": "d5bb5f0c-a841-454c-94cc-ff2fb2d3ba1a",
+                "resourcePath": "sprites\\Rat_RightFace_Walking\\Rat_RightFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -484,6 +668,14 @@
                 "id": "f8a0e537-1851-450e-9458-794edd5e2b26",
                 "resourcePath": "objects\\ChatBarTest\\ChatBarTest.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c42ce733-9c11-4426-8e91-0f0665cc7bf7",
+            "Value": {
+                "id": "452b378e-3430-4b98-a2e7-6631adf00d51",
+                "resourcePath": "sprites\\Rat_DownFace\\Rat_DownFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -543,6 +735,14 @@
             }
         },
         {
+            "Key": "d3e5862c-fcb2-4e03-b4b6-494d217350ac",
+            "Value": {
+                "id": "04ef8414-0703-48b2-9a7b-e5239369f830",
+                "resourcePath": "sprites\\Rat_UpFace_Walking\\Rat_UpFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d4e54e76-7c95-437e-8093-8ff6d60aa3bc",
             "Value": {
                 "id": "bdd6e8ad-4b2e-4206-b529-e047526adaf2",
@@ -563,6 +763,30 @@
             "Value": {
                 "id": "48591e01-2a29-4e12-957a-1c4b3c2f54ec",
                 "resourcePath": "sprites\\Nu_DownFace_Walking\\Nu_DownFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dca3ef04-8c6e-4540-b669-7322d74b53ac",
+            "Value": {
+                "id": "38208695-1944-41e3-8554-2827363344fd",
+                "resourcePath": "objects\\Username_Box\\Username_Box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "de084f79-87d4-4705-bb7f-d8f04d1087e6",
+            "Value": {
+                "id": "a9903dcb-9e82-4112-9352-87f2c4703102",
+                "resourcePath": "views\\de084f79-87d4-4705-bb7f-d8f04d1087e6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "e235e869-7b24-4100-bca3-96430da88c74",
+            "Value": {
+                "id": "2babb0e0-eb12-4309-971d-22afa34ac433",
+                "resourcePath": "sprites\\Robo_LeftFace_Walking\\Robo_LeftFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -591,10 +815,26 @@
             }
         },
         {
+            "Key": "e8c7107e-3c0f-4a40-adb1-7383654a67ae",
+            "Value": {
+                "id": "61461f87-a2ee-4bad-9640-9bb0023edc80",
+                "resourcePath": "sprites\\Nu_RightFace_Walking\\Nu_RightFace_Walking.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e94c4984-9d32-4cae-8446-4a9b8a173811",
             "Value": {
                 "id": "02a6afbb-789b-4d83-99f8-bf2368f65f30",
                 "resourcePath": "sprites\\Title\\Title.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ec2b56d6-b053-4516-ae07-42a93cf1c8fc",
+            "Value": {
+                "id": "520e74c1-9b38-48f3-91cf-2ead20bae869",
+                "resourcePath": "sprites\\Robo_RightFace\\Robo_RightFace.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -604,6 +844,14 @@
                 "id": "c1790466-3bc8-4607-8412-d1e45865b50d",
                 "resourcePath": "views\\ec381faa-f7c4-471e-a297-4df925473821.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "eca79f9d-876d-4ff8-ae94-fee8866b982f",
+            "Value": {
+                "id": "b982b23d-fcc3-4e55-885b-76f78d3b68da",
+                "resourcePath": "sprites\\Gremlin_DownFace\\Gremlin_DownFace.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -620,6 +868,14 @@
                 "id": "a1131b88-389a-468d-8feb-62f15af1c670",
                 "resourcePath": "rooms\\Menu\\Menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "ee8ba5bb-4768-437e-9a53-007ebeab36a0",
+            "Value": {
+                "id": "f4e08607-ce92-4302-8753-fc4464383de6",
+                "resourcePath": "sprites\\Robo_RightFace_Walking\\Robo_RightFace_Walking.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +911,14 @@
             }
         },
         {
+            "Key": "f81b4ad4-c852-47c5-9b39-c871e78c56ae",
+            "Value": {
+                "id": "fb34edc8-4b79-4b89-a04b-47db6231f410",
+                "resourcePath": "sprites\\Gremlin_RightFace\\Gremlin_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f85efd3d-bcec-4ec0-8226-da808afda79d",
             "Value": {
                 "id": "7a490041-511e-4782-9a03-975957da64e4",
@@ -667,6 +931,14 @@
             "Value": {
                 "id": "b59133d0-ddd8-405a-bc5a-b28ee8fb4cf7",
                 "resourcePath": "sprites\\Crono_RightFace\\Crono_RightFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "feb35851-ce61-42e6-b909-ff45c3d13805",
+            "Value": {
+                "id": "8d55e746-6ef1-456f-b5f1-9347b5547ded",
+                "resourcePath": "sprites\\Nu_UpFace_Walking\\Nu_UpFace_Walking.yy",
                 "resourceType": "GMSprite"
             }
         },
