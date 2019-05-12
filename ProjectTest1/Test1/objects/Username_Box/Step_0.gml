@@ -19,7 +19,7 @@ if(typing){
 	if(usrName_Del_Timer !=2){
 		usrName_Del_Timer++;	
 	}
-	if (keyboard_check(vk_enter) || (mouse_check_button(mb_left) && !point_in_rectangle(mouse_x,mouse_y,x,y,x+image_xscale*32,y+image_yscale*32))){
+	if (keyboard_check(vk_enter) || (mouse_check_button(mb_left) && !point_in_rectangle(mouse_x,mouse_y,420,247,667,284))){
 		typing = false;
 		blink = false;
 		alarm[0] = -1;
