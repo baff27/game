@@ -162,7 +162,7 @@
             "Key": "314a4ee7-cd13-4b80-b9a8-bcdb5483514a",
             "Value": {
                 "id": "5e639315-53cc-4f0a-87f0-6b8c944b713d",
-                "resourcePath": "sprites\\Username_Pass_TextBox_Sprite\\Username_Pass_TextBox_Sprite.yy",
+                "resourcePath": "sprites\\Username_Pass_TextBox\\Username_Pass_TextBox.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -383,11 +383,27 @@
             }
         },
         {
+            "Key": "6bb00c6a-eae3-43f5-b164-a54c6b3f5593",
+            "Value": {
+                "id": "3fe582e2-b5d8-4f87-bf31-450ba1c9d003",
+                "resourcePath": "sprites\\Red_X\\Red_X.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6c836fe6-5ef7-4b80-96ff-db69af13bf40",
             "Value": {
                 "id": "5b2f3944-9f35-4f8d-ba67-91e7d3baee86",
                 "resourcePath": "sprites\\Gremlin_UpFace_Walking\\Gremlin_UpFace_Walking.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "713f4881-5a45-4539-bd81-c7b29c1b38a3",
+            "Value": {
+                "id": "1e37b34b-5b62-4959-9753-7d0fe3321edc",
+                "resourcePath": "fonts\\unicode\\unicode.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -671,6 +687,14 @@
             }
         },
         {
+            "Key": "c2757d89-12fb-435b-8615-2acf3647fc9e",
+            "Value": {
+                "id": "3bb0e096-844d-41eb-83af-0a3aa7471ff3",
+                "resourcePath": "sprites\\CheckMark\\CheckMark.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c42ce733-9c11-4426-8e91-0f0665cc7bf7",
             "Value": {
                 "id": "452b378e-3430-4b98-a2e7-6631adf00d51",
@@ -895,6 +919,14 @@
             }
         },
         {
+            "Key": "f696082b-c674-4f1b-b1c3-c619aea22917",
+            "Value": {
+                "id": "c6dec0b2-3e28-4040-8eec-58e447669051",
+                "resourcePath": "objects\\Password_Box\\Password_Box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f6a3f4ed-978f-487d-a241-2410943cc2b4",
             "Value": {
                 "id": "8b33715e-eff1-45e3-ad88-6e9e5a8fd929",
@@ -940,6 +972,14 @@
                 "id": "8d55e746-6ef1-456f-b5f1-9347b5547ded",
                 "resourcePath": "sprites\\Nu_UpFace_Walking\\Nu_UpFace_Walking.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fec3188f-837d-4330-880e-313c3ab6561f",
+            "Value": {
+                "id": "c4da47d5-1ce6-4110-8f65-e5c9abe6c07d",
+                "resourcePath": "objects\\obj_NameApproval\\obj_NameApproval.yy",
+                "resourceType": "GMObject"
             }
         },
         {
