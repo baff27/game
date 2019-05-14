@@ -12,3 +12,7 @@ var size = 1024; //Has a size of 1KB
 var bufferType = buffer_fixed //Defines a Fixed buffer
 var alignment = 1; //Sets alignment to 1, commonly used for strings.
 buffer = buffer_create(size,bufferType,alignment);//Creates buffer
+
+var client_Username = "";
+var client_Password = "";
+var client_Character = "";

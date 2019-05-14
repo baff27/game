@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "16c93692-c752-4e24-b408-e4248c1610c7",
+            "Value": {
+                "id": "f1d9feca-3808-43ea-ac69-14e4dfdda93b",
+                "resourcePath": "objects\\obj_Char_Sel_Menu_Btn\\obj_Char_Sel_Menu_Btn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "19b6bffd-5bb9-4f2d-9010-538318752022",
             "Value": {
                 "id": "68c2f791-000e-4349-9be0-af0f12495f98",
@@ -379,14 +387,6 @@
             "Value": {
                 "id": "b0e537c4-b38b-41e1-a45f-dd35ce604e4d",
                 "resourcePath": "sprites\\ChatBox\\ChatBox.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "6bb00c6a-eae3-43f5-b164-a54c6b3f5593",
-            "Value": {
-                "id": "3fe582e2-b5d8-4f87-bf31-450ba1c9d003",
-                "resourcePath": "sprites\\Red_X\\Red_X.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -690,7 +690,7 @@
             "Key": "c2757d89-12fb-435b-8615-2acf3647fc9e",
             "Value": {
                 "id": "3bb0e096-844d-41eb-83af-0a3aa7471ff3",
-                "resourcePath": "sprites\\CheckMark\\CheckMark.yy",
+                "resourcePath": "sprites\\CheckMark_RedX\\CheckMark_RedX.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -916,6 +916,14 @@
                 "id": "d23d8926-f8a3-4713-bfc9-aefdbcc834c5",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f63209ca-ff68-43c6-884d-3017820b9559",
+            "Value": {
+                "id": "5c316cd4-03d7-453a-8f6c-125bbfd13f51",
+                "resourcePath": "sprites\\Char_Sel_Menu_Sprite\\Char_Sel_Menu_Sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
