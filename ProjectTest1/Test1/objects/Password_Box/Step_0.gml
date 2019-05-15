@@ -29,4 +29,10 @@ if(pass_typing){
 		
 		//obj_user.name = text;
 	}
+	if (string_lower(Password_text) == string_lower(Username_Box.usrName_text)){
+		pass_eqs_usr = true;
+	}
+	else{
+		pass_eqs_usr = false;
+	}
 }

@@ -2,9 +2,10 @@
 // You can write your code in this editor
 if(typing){
 	if(keyboard_check(vk_anykey) and string_length(usrName_text) < 24){
-		usrName_text += keyboard_string;
+		usrName_text = add_chars_to_usrName(usrName_text);
 		keyboard_string = "";
 	}
+	
 	if(keyboard_check(vk_backspace) and !keyboard_check_pressed(vk_backspace) and usrName_Del_Timer = 2){
 		usrName_text = string_delete(usrName_text,string_length(usrName_text),1);
 		usrName_Del_Timer = 0;
@@ -25,5 +26,11 @@ if(typing){
 		alarm[0] = -1;
 		
 		//obj_user.name = text;
+	}
+	if(string_lower(Password_Box.Password_text) == string_lower(usrName_text)){
+		Password_Box.pass_eqs_usr = true;
+	}
+	else{
+		Password_Box.pass_eqs_usr = false;
 	}
 }

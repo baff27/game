@@ -5,3 +5,4 @@ Password_text = "";
 hidden_text = "";
 pass_typing = false;
 pass_blink = false;
+pass_eqs_usr = false;
