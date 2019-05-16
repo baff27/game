@@ -1,6 +1,6 @@
 var usrNameText = argument[0];
 letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
-nums = "0123456789";
+nums = "0123456789_";
 for(i=1;i<=string_length(letters);i++){
 	if (keyboard_string == string_char_at(letters,i)){
 		usrNameText += keyboard_string;

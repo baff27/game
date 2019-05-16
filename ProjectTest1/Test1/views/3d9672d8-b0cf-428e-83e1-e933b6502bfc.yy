@@ -11,7 +11,8 @@
         "4a65f67f-36ee-4203-8676-3085829a9b0e",
         "d88a865e-ba41-4210-bf7a-425fb00bf686",
         "56a825f6-faad-4048-a5db-afc0cfe37ae3",
-        "e8c7107e-3c0f-4a40-adb1-7383654a67ae"
+        "e8c7107e-3c0f-4a40-adb1-7383654a67ae",
+        "3e1031d1-e20c-42ff-9904-8539975476a3"
     ],
     "filterType": "GMSprite",
     "folderName": "Nu",

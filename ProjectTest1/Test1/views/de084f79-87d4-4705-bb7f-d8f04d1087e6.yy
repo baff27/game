@@ -11,7 +11,8 @@
         "c42ce733-9c11-4426-8e91-0f0665cc7bf7",
         "9293cc3b-2ed9-49c6-a0a9-494a16352e28",
         "2009bd81-14fe-4c35-8952-f9d7b5594c07",
-        "ba1991c7-01d9-4c4a-b714-d0171a2a4914"
+        "ba1991c7-01d9-4c4a-b714-d0171a2a4914",
+        "02338012-d70e-40b7-8eaf-ebb743f33071"
     ],
     "filterType": "GMSprite",
     "folderName": "Rat",

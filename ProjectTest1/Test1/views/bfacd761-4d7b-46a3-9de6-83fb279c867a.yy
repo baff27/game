@@ -7,7 +7,8 @@
         "1c59881b-b208-4a59-bd0b-d7ffa32eebff",
         "ac93261d-5ef7-4e39-a11a-936a46c15aa1",
         "f6a3f4ed-978f-487d-a241-2410943cc2b4",
-        "d6df1a82-ac0d-4eb5-a647-dfc00300e077"
+        "d6df1a82-ac0d-4eb5-a647-dfc00300e077",
+        "3b56aef5-41fb-4b82-acd8-0218aed07064"
     ],
     "filterType": "GMSprite",
     "folderName": "BlueSheild",

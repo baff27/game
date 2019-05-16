@@ -11,7 +11,8 @@
         "7b00f44f-2644-4980-9801-07ff308321dc",
         "56051eab-0520-4f93-ac9e-0d4df6c07f3d",
         "ec2b56d6-b053-4516-ae07-42a93cf1c8fc",
-        "ee8ba5bb-4768-437e-9a53-007ebeab36a0"
+        "ee8ba5bb-4768-437e-9a53-007ebeab36a0",
+        "2e9314a1-da9e-41be-a942-288f7b036c97"
     ],
     "filterType": "GMSprite",
     "folderName": "Robo",

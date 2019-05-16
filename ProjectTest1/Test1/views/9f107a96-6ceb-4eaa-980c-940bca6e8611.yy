@@ -11,7 +11,8 @@
         "eca79f9d-876d-4ff8-ae94-fee8866b982f",
         "05640d98-1c58-427e-9734-c0adfa6456f2",
         "f81b4ad4-c852-47c5-9b39-c871e78c56ae",
-        "065f3bce-ab04-4181-bef7-6858e0d91184"
+        "065f3bce-ab04-4181-bef7-6858e0d91184",
+        "9975f104-f246-43c8-b901-494befd201bf"
     ],
     "filterType": "GMSprite",
     "folderName": "Gremlin",
