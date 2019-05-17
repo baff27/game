@@ -487,6 +487,14 @@
             }
         },
         {
+            "Key": "68c3fc86-ccbf-47e5-ba30-1b4719ac60d4",
+            "Value": {
+                "id": "f88329d3-8df8-4024-bf4d-3ece426d331f",
+                "resourcePath": "objects\\Load_Player_Button\\Load_Player_Button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6bc523c4-fe6d-41ba-abed-5a78d691adb6",
             "Value": {
                 "id": "f4a4243b-42b7-4491-aa4f-35d7d4845f2c",
@@ -540,6 +548,14 @@
                 "id": "757469f9-913a-436c-8b50-8770123b49b4",
                 "resourcePath": "views\\78bb8323-e853-4cdf-9af4-6c3034844abb.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "78c0bb52-dd2f-4a94-9119-46ea715ccb07",
+            "Value": {
+                "id": "ba4fa71c-ee38-48ca-8022-174021dc49d6",
+                "resourcePath": "objects\\obj_Player\\obj_Player.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -915,6 +931,14 @@
             "Value": {
                 "id": "990744f1-1704-4ce3-9902-821bb434ac21",
                 "resourcePath": "sprites\\Crono_DownFace\\Crono_DownFace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf02716b-6f14-400c-845e-2ccad015307f",
+            "Value": {
+                "id": "c9017c54-3573-48d5-b638-867bb25e535c",
+                "resourcePath": "sprites\\Load_Char_Sprite\\Load_Char_Sprite.yy",
                 "resourceType": "GMSprite"
             }
         },
