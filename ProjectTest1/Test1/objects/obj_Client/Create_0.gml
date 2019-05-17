@@ -13,6 +13,7 @@ var bufferType = buffer_fixed //Defines a Fixed buffer
 var alignment = 1; //Sets alignment to 1, commonly used for strings.
 buffer = buffer_create(size,bufferType,alignment);//Creates buffer
 
-var client_Username = "";
-var client_Password = "";
-var client_Character = "";
+client_Username = "";
+client_Password = "";
+client_Character = "";
+client_Room_Level = "";

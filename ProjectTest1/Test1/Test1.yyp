@@ -351,6 +351,14 @@
             }
         },
         {
+            "Key": "4a4f296b-a6a2-4309-82fc-b2fb9fe460cc",
+            "Value": {
+                "id": "fed305fb-3c3e-4d6f-86f4-ff372adca66e",
+                "resourcePath": "objects\\obj_join_game_Btn\\obj_join_game_Btn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4a65f67f-36ee-4203-8676-3085829a9b0e",
             "Value": {
                 "id": "aa6b7220-5edf-468a-a53c-de2e8ee4ce17",
@@ -460,6 +468,14 @@
                 "id": "2639d162-cde8-4707-a418-33932254c231",
                 "resourcePath": "views\\62756b27-263d-4ede-b7f4-de78b7d2d786.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "673a99b5-efb7-4ef8-a62f-d507e0025d0e",
+            "Value": {
+                "id": "5c3d9b61-a488-4188-829a-f66441e05396",
+                "resourcePath": "sprites\\Join_game_Btn_Sprite\\Join_game_Btn_Sprite.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

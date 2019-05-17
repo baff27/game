@@ -1,6 +1,6 @@
 /// @description Send a click to the server
 // You can write your code in this editor
-
+/*
 instance_create_layer(mouse_x,mouse_y,Menu,obj_click);
 //Write the click to buffer.
 buffer_seek(buffer,buffer_seek_start,0);//Checks the beginning of the buffer
@@ -11,3 +11,4 @@ buffer_write(buffer,buffer_u16,mouse_y); //Writes our mouse_y to an unsigned pos
 //Send the buffer to the server
 //We need to tell it which socker to connect to, which buffer to use, and what buffer size we are using.
 network_send_packet(socket,buffer,buffer_tell(buffer)) //Buffer_tell is going to return the size of the buffer.
+*/
