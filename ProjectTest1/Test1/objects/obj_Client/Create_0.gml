@@ -5,6 +5,7 @@ var type = network_socket_udp; //Defining Socket
 var ip = "localhost"
 var port = 25565; //Port to connect through
 socket = network_create_socket(network_socket_tcp);
+//Uncomment this later
 //connection = network_connect(socket,ip,port); //Creates a connection to our socket, server, and port
 
 //Send Information to the Server.
