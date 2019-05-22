@@ -1047,6 +1047,14 @@
             }
         },
         {
+            "Key": "ce34b2eb-8052-418f-a55c-62f122393ce9",
+            "Value": {
+                "id": "4725fedc-b1d2-407b-976c-8607e5c79ef7",
+                "resourcePath": "sprites\\Level_1_Wall\\Level_1_Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf02716b-6f14-400c-845e-2ccad015307f",
             "Value": {
                 "id": "c9017c54-3573-48d5-b638-867bb25e535c",
