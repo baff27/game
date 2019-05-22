@@ -18,7 +18,7 @@ switch(message_id) {
 	case 8: //If the ID message is equal to 8, Send the global list to the client
 		//send_global_list_to_client();//Do something here
 		break;
-	case 9:
+	case 9://Check if password matches Hash
 		var usernameCon = buffer_read(buffer,buffer_string); // Reads our Username string from buffer
 		var passwordCon = buffer_read(buffer,buffer_string); // Reads our Password String from buffer
 		for(i=0;i<ds_list_size(global.global_Username_list);i++){
