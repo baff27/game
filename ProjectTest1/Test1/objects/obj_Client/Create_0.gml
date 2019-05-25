@@ -16,5 +16,5 @@ buffer = buffer_create(size,bufferType,alignment);//Creates buffer
 
 client_Username = "";
 client_Password = "";
-client_Character = "";
+client_Character = noone;
 client_Room_Level = "";
