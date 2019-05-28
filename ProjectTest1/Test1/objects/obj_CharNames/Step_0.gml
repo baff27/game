@@ -5,25 +5,25 @@ if(obj_CharNames.image_index != 0){
 }
 switch(obj_CharNames.image_index){
 	case 1:
-		obj_Client.client_Character = Crono_DownFace;
+		obj_Client.client_Character = "Crono";
 		break;
 	case 2:
-		obj_Client.client_Character = BlueSheild_DownFace;
+		obj_Client.client_Character = "Incognito";
 		break;
 	case 3:
-		obj_Client.client_Character = Incognito_DownFace;
+		obj_Client.client_Character = "BlueShield";
 		break;
 	case 4:
-		obj_Client.client_Character = Gremlin_DownFace;
+		obj_Client.client_Character = "Gremlin";
 		break;
 	case 5:
-		obj_Client.client_Character = Rat_DownFace;
+		obj_Client.client_Character = "Rat";
 		break;
 	case 6:
-		obj_Client.client_Character = Robo_DownFace;
+		obj_Client.client_Character = "Robo";
 		break;
 	case 7:
-		obj_Client.client_Character = Nu_DownFace;
+		obj_Client.client_Character = "Nu";
 		break;
 	default:
 		obj_Client.client_Character = "";
