@@ -1,4 +1,5 @@
 window_set_fullscreen(false);
+window_set_size(1024,768);
 window_set_cursor(cr_arrow);
 xstart = 512 //Arbitrary Values. Don't know just yet
 ystart = 352;//Arbitrary Values. Don't Know just yet

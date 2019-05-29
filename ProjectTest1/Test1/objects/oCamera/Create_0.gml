@@ -7,6 +7,7 @@ var pm = matrix_build_projection_ortho(512,320,1,10000);
 camera_set_view_mat(camera,vm);
 camera_set_proj_mat(camera,pm);
 
+//camera_set_view_border(camera,0,0);
 follow = obj_Player;
 
 xTo = x;

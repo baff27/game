@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "1416b8d5-d8b0-48f6-8db2-40f01fafdab1",
+            "Value": {
+                "id": "a4f31ad9-0e3f-40bb-9734-4ea9712a9a20",
+                "resourcePath": "tilesets\\Level_1_Tileset\\Level_1_Tileset.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "16c93692-c752-4e24-b408-e4248c1610c7",
             "Value": {
                 "id": "f1d9feca-3808-43ea-ac69-14e4dfdda93b",
@@ -380,6 +388,14 @@
                 "id": "0c801d34-3894-47a4-a6b7-2f9de767b5f3",
                 "resourcePath": "objects\\obj_savenload\\obj_savenload.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "48519155-73a2-4115-8e2e-679bf4ec5582",
+            "Value": {
+                "id": "bfbfc1d1-7e0e-49eb-978a-38bc0607d11a",
+                "resourcePath": "sprites\\Blank\\Blank.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1082,7 +1098,7 @@
             "Key": "ce34b2eb-8052-418f-a55c-62f122393ce9",
             "Value": {
                 "id": "4725fedc-b1d2-407b-976c-8607e5c79ef7",
-                "resourcePath": "sprites\\Level_1_Wall\\Level_1_Wall.yy",
+                "resourcePath": "sprites\\Level_1_Wall_and_Things\\Level_1_Wall_and_Things.yy",
                 "resourceType": "GMSprite"
             }
         },

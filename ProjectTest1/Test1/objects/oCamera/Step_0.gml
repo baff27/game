@@ -1,7 +1,8 @@
 /// @description Smooth Follow
 // You can write your code in this editor
-x+=(xTo-x)/2;
-y+=(yTo-y)/2;
+
+x+=(xTo-x-25)/10;
+y+=(yTo-y-25)/10;
 if (follow != noone){
 	xTo = follow.x;
 	yTo = follow.y;
