@@ -13,6 +13,8 @@ if(visible == 0){
 	chat_blink = false;
 	visible = 0;
 	alarm[0] = -1;
+	//Run script to check the text
+	keypass_text(chat_text,obj_Player.player_room_level);
 	//Send message to chat
 	//obj_user.name = text;
 }
