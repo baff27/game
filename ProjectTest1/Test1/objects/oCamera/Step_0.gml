@@ -1,8 +1,18 @@
 /// @description Smooth Follow
 // You can write your code in this editor
+if(keyboard_check(vk_left) or keyboard_check(ord("A"))){
+	x+=(xTo-x-60)/2;
+}
+if(keyboard_check(vk_right) or keyboard_check(ord("D"))){
+	x+=(xTo-x+80)/2;
+}
+if(keyboard_check(vk_up) or keyboard_check(ord("W"))){
+	y+=(yTo-y-75)/2;
+}
+if(keyboard_check(vk_down) or keyboard_check(ord("S"))){
+	y+=(yTo-y+90)/2;
+}
 
-x+=(xTo-x-25)/10;
-y+=(yTo-y-25)/10;
 if (follow != noone){
 	xTo = follow.x;
 	yTo = follow.y;

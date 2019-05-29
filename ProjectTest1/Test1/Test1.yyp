@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "2aef0db2-c6e3-4a3d-8ba7-f9e4dfe52ab2",
+            "Value": {
+                "id": "84687b69-6d5f-47eb-87e5-8707d3253562",
+                "resourcePath": "fonts\\font_chat\\font_chat.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2e9314a1-da9e-41be-a942-288f7b036c97",
             "Value": {
                 "id": "0c59744c-f3ac-4b90-955e-e93b63840eba",
