@@ -5,7 +5,7 @@
     "name": "obj_Door",
     "eventList": [
         {
-            "id": "0a7f65ec-4e37-4977-8d57-72e0fbdf7c14",
+            "id": "3a08323c-63a0-476b-b6bc-809b787f39df",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
@@ -32,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
+    "solid": true,
     "spriteId": "f164bebc-6694-41a6-9f89-e102bbb8a40b",
     "visible": true
 }

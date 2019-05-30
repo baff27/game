@@ -1,38 +1,38 @@
 {
-    "id": "0554f56f-4778-4932-bf5c-6885be6626af",
+    "id": "d0db5ec5-62e3-4bf0-942d-36041f91815b",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_PlayerLoad_NameApproval",
+    "name": "obj_Sign",
     "eventList": [
         {
-            "id": "10d0b589-03b9-41f5-b571-2c671bfea68e",
+            "id": "cfe6f97c-010f-4233-b933-873b235f7c53",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "0554f56f-4778-4932-bf5c-6885be6626af"
+            "m_owner": "d0db5ec5-62e3-4bf0-942d-36041f91815b"
         },
         {
-            "id": "90c79627-6800-4b98-8adb-72643fbe293f",
+            "id": "44247a55-15c2-4da0-a73e-7c910a602e6d",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d0db5ec5-62e3-4bf0-942d-36041f91815b"
+        },
+        {
+            "id": "d84ebcfb-9626-4041-a64c-9a42363fe90e",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "0554f56f-4778-4932-bf5c-6885be6626af"
-        },
-        {
-            "id": "56bbba2d-94e3-4f31-be94-b729b06b5480",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 9,
-            "eventtype": 9,
-            "m_owner": "0554f56f-4778-4932-bf5c-6885be6626af"
+            "m_owner": "d0db5ec5-62e3-4bf0-942d-36041f91815b"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -51,23 +51,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "a7d3a367-a2fb-49f2-ab49-2b787a399085",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "0",
-            "varName": "nameMatch",
-            "varType": 3
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "c2757d89-12fb-435b-8615-2acf3647fc9e",
+    "spriteId": "a7179c1e-df90-43d4-9204-0faa6b77c279",
     "visible": true
 }

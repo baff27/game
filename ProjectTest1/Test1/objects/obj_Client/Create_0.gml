@@ -1,12 +1,13 @@
 /// @description Initializing Clients
 // You can write your code in this editor
-var type = network_socket_udp; //Defining Socket
+var type = network_socket_tcp; //Defining Socket
 //var ip = get_string("Server: ","");
-var ip = "localhost"
+var ip = "99.8.88.54"
 var port = 25565; //Port to connect through
-socket = network_create_socket(network_socket_tcp);
+socket = network_create_socket(type);
+global.global_Username_list = ds_list_create();
 //Uncomment this later
-//connection = network_connect(socket,ip,port); //Creates a connection to our socket, server, and port
+//connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
 
 //Send Information to the Server.
 var size = 1024; //Has a size of 1KB

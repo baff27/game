@@ -24,6 +24,7 @@ if(typing){
 		typing = false;
 		blink = false;
 		alarm[0] = -1;
+		nameCheck();
 		
 		//obj_user.name = text;
 	}

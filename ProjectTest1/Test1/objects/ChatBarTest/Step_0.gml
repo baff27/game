@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if(visible==1){
 	if(chat_typing){
-		if(keyboard_check(vk_anykey) and string_length(chat_text) < 100){
+		if(keyboard_check(vk_anykey) and string_length(chat_text) < 250){
 			chat_text += keyboard_string;
 			keyboard_string = "";
 		}
