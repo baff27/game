@@ -6,15 +6,17 @@ if(close){
 	draw_set_font(font_chat);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(xx+256,yy+160,"Hold \"E\" to Read the Sign");
+	draw_text(xx+256,yy+160,"Press \"E\" to Read the Sign");
 }
-if(close and keyboard_check(ord("E")) and !ChatBarTest.chat_typing){
-	signCol = make_color_hsv(18,63,36);
-	draw_set_color(signCol);
+if(close and global.e_state and !ChatBarTest.chat_typing){
+	//signCol = make_color_hsv(18,63,36);
+	draw_set_color(global.signCol);
 	draw_rectangle(xx+64,yy+40,xx+448,yy+280,false);
 	draw_set_color(c_black);
-	draw_set_font(font0);
+	draw_set_font(fontSign);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(xx+256,yy+160,"This is a clue");
+	var str2 = "Decoy :P";
+	//var sh = string_height(str3);
+	draw_text(xx+256,yy+160,str2);
 }
