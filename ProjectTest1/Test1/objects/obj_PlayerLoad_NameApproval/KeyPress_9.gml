@@ -6,7 +6,7 @@ switch(tabCounter){
 		PlayerLoad_Username_Box.typing = false;
 		PlayerLoad_Username_Box.blink = false;
 		PlayerLoad_Username_Box.alarm[0] = -1;
-		nameCheck();
+		//nameCheck();
 		keyboard_string = "";
 		PlayerLoad_Password_Box.pass_typing = true;
 		PlayerLoad_Password_Box.Password_Box.pass_blink = true;

@@ -9,9 +9,44 @@ var net_event_type = ds_map_find_value( async_load, "type" );
 show_debug_message("Event type: " + string(net_event_type))
 switch( net_event_type ) {
     case network_type_data:
-        var buffer = ds_map_find_value( async_load, "buffer" );
-        buffer_seek( buffer, buffer_seek_start, 0 );
-        var hello = buffer_read(buffer,buffer_string);
-		show_debug_message("Recieved: " + hello);
-        break;
+		show_debug_message("Reciveving DATA with IncomingData: " + string(IncomingData));
+		switch (IncomingData){
+			case 1: // userlist
+				var buffer = ds_map_find_value( async_load, "buffer" );
+				buffer_seek( buffer, buffer_seek_start, 0 );
+				global.global_Username_list = buffer_read(buffer,buffer_string);
+				show_debug_message("User List Recieved: " + global.global_Username_list);
+				IncomingData = 0;
+				userlist = false;
+				break;
+			case 2: //Token
+				var buffer = ds_map_find_value( async_load, "buffer" );
+				buffer_seek( buffer, buffer_seek_start, 0 );
+				var message = buffer_read(buffer,buffer_string);
+				if(message == "Invalid username/password."){
+					room_goto_previous();	
+				}
+				else {
+					global.token = message;
+				}
+				show_debug_message("Token Recieved: " + global.token);
+				IncomingData = 0;
+				token = false;
+				break;
+			case 3: //Player Inforamtion
+				var buffer = ds_map_find_value( async_load, "buffer" );
+				buffer_seek( buffer, buffer_seek_start, 0 );
+				var message = buffer_read(buffer,buffer_string);
+				show_debug_message("Info Recieved: " + message);
+				IncomingData = 0;
+				loadchar = false;
+				break;
+			default:
+				var buffer = ds_map_find_value( async_load, "buffer" );
+				buffer_seek( buffer, buffer_seek_start, 0 );
+				var ran = buffer_read(buffer,buffer_string);
+				show_debug_message("Recieved: " + ran);
+				break;
+		}
+		break;
 }

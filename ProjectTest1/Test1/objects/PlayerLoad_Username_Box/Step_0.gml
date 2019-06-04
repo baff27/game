@@ -24,14 +24,14 @@ if(typing){
 		typing = false;
 		blink = false;
 		alarm[0] = -1;
-		nameCheck();
+		//nameCheck();
 		
 		//obj_user.name = text;
-	}
+	}/*
 	if(string_lower(PlayerLoad_Password_Box.Password_text) == string_lower(usrName_text)){
 		PlayerLoad_Password_Box.pass_eqs_usr = true;
 	}
 	else{
 		PlayerLoad_Password_Box.pass_eqs_usr = false;
-	}
+	}*/
 }

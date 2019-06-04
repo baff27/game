@@ -6,8 +6,13 @@ var ip = "99.8.88.54"
 var port = 25565; //Port to connect through
 socket = network_create_socket(type);
 global.global_Username_list = ds_list_create();
+global.token = noone;
+IncomingData = 0;//0 default anything; 1 userlist; 2 token
+token = false;
+userlist = false;
+loadchar = false;
 //Uncomment this later
-//connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
+connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
 
 //Send Information to the Server.
 var size = 1024; //Has a size of 1KB
