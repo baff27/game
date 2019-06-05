@@ -6,7 +6,7 @@ if(close){
 	draw_set_font(font_chat);
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-	draw_text(xx+256,yy+160,"Press \"E\" to Read the Sign");
+	draw_text_ext_transformed(xx+256,yy+160,"Press \"E\" to Read the Sign",-1,300,0.5,0.5,0);
 }
 if(close and global.e_state and !ChatBarTest.chat_typing){
 	//signCol = make_color_hsv(18,63,36);
