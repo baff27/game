@@ -10,7 +10,7 @@ while (q != 0){
 	q = string_pos("'",s);
 }
 var p = string_pos(d,s);
-show_debug_message(s);
+//show_debug_message(s);
 while(p != 0){
 	ds_list_add(rl,string_copy(s,1,p-1));
 	s = string_delete(s,1,p);
@@ -18,5 +18,5 @@ while(p != 0){
 }
 
 ds_list_add(rl,string_letters(s));
-show_debug_message(s);
+//show_debug_message(s);
 return rl;

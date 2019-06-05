@@ -24,6 +24,7 @@ if(typing){
 		blink = false;
 		alarm[0] = -1;
 		nameCheck();
+		//global.global_Username_list = string_split(ds_list_find_value(global.global_Username_list,0),",");
 		//obj_user.name = text;
 	}
 	if(string_lower(Password_Box.Password_text) == string_lower(usrName_text)){

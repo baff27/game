@@ -3,3 +3,8 @@
 nameMatch = false;
 obj_NameApproval.image_index = 0;
 tabCounter =0;
+/*
+if(!ds_list_empty(global.global_Username_list)){
+	global.global_Username_list = string_split(ds_list_find_value(global.global_Username_list,0),",");
+}else{ds_list_add(global.global_Username_list,"ADMIN");ds_list_add(global.global_Username_list,"MOD");ds_list_add(global.global_Username_list,"MODERATOR");ds_list_add(global.global_Username_list,"ADMINISTRATOR");}
+	*/
