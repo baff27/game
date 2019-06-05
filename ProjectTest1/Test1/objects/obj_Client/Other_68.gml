@@ -24,8 +24,14 @@ switch( net_event_type ) {
 				}
 				else {
 					global.token = message;
-					obj_Client.client_Username = PlayerLoad_Username_Box.usrName_text;
-					obj_Client.client_Password = PlayerLoad_Password_Box.Password_text;
+					if(room == asset_get_index("Player_Load")){
+						obj_Client.client_Username = PlayerLoad_Username_Box.usrName_text;
+						obj_Client.client_Password = PlayerLoad_Password_Box.Password_text;
+					}/*
+					else{
+						obj_Client.client_Username = Username_Box.usrName_text;
+						obj_Client.client_Password = Password_Box.Password_text;
+					}*/
 				}
 				show_debug_message("Token Recieved: " + global.token);
 				IncomingData = 0;

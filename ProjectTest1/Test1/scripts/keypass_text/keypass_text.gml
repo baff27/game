@@ -22,14 +22,10 @@ if(trigger != 0){
 							obj_Door.sprite_index = magic_Door_Open;
 							ChatBarTest.chat_text = "";
 							keyboard_string = "";
-						}else {ChatBarTest.chat_text = "";
-							keyboard_string = "";}
-					}else{ChatBarTest.chat_text = "";
-							keyboard_string = "";}
-				}else{ChatBarTest.chat_text = "";
-							keyboard_string = "";}
-			}else{ChatBarTest.chat_text = "";
-							keyboard_string = "";}
+						}
+					}
+				}
+			}
 			break;
 		case "Level_2":
 			

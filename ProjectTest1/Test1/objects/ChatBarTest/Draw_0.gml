@@ -9,18 +9,18 @@ if(chat_typing){
 	if (chat_blink){
 		if(string_width(chat_text) > 212){
 			var chatTextOffset = string_width(chat_text)-212;
-			draw_text(x+1-chatTextOffset,y,chat_text+"|");
+			draw_text_ext_transformed(x+1-chatTextOffset,y,chat_text+"|",-1,3000,0.5,0.5,0);
 		}else{
-			draw_text(x+1,y,chat_text+"|");
+			draw_text_ext_transformed(x+1,y,chat_text+"|",-1,3000,0.5,0.5,0);
 		}
 	}
 }
 if (!chat_blink){//This should be unnecessary because it will be sending it to the server/keypassCheck
 	if(string_width(chat_text) > 212){
 			var chatTextOffset = string_width(chat_text)-212;
-			draw_text(x+1-chatTextOffset,y,chat_text);
+			draw_text_ext_transformed(x+1-chatTextOffset,y,chat_text,-1,3000,0.5,0.5,0);
 		}else{
-			draw_text(x+1,y,chat_text);
+			draw_text_ext_transformed(x+1,y,chat_text,-1,3000,0.5,0.5,0);
 		}
 	//Send Text to chat draw_text(x,y,chat_text);
 	//chat_text = "";
