@@ -1,31 +1,42 @@
 /// @description Initializing Clients
-// You can write your code in this editor
+
 var type = network_socket_tcp; //Defining Socket
-//var ip = get_string("Server: ","");
-var ip = "99.8.88.54"
+var ip = "99.8.88.54" //Server IP
 var port = 25565; //Port to connect through
 socket = network_create_socket(type);
+
+//Uncomment this later
+connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
+
+
+//Buffer information for sending Data
+//===================================
+var size = 1024;	//Has a size of 1KB
+
+var bufferType = buffer_fixed	//Defines a Fixed buffer
+
+var alignment = 1;	//Sets alignment to 1, commonly used for strings.
+
+buffer = buffer_create(size,bufferType,alignment);	//Creates buffer
+
+
+
+//Global variables / Important lists and Variables
+//==================================
 global.global_Username_list = ds_list_create();
 global.token = noone;
 IncomingData = 0;//0 default anything; 1 userlist; 2 token
 token = false;
 userlist = false;
 loadchar = false;
-//Uncomment this later
-connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
-
-//Send Information to the Server.
-var size = 1024; //Has a size of 1KB
-var bufferType = buffer_fixed //Defines a Fixed buffer
-var alignment = 1; //Sets alignment to 1, commonly used for strings.
-buffer = buffer_create(size,bufferType,alignment);//Creates buffer
-
 client_Username = "";
 client_Password = "";
 client_Character = noone;
 client_Room_Level = "";
 
+
 //Create Lists of sprites for character creation
+//==============================================
 global.CronoSpriteList = ds_list_create();
 global.CronoSpriteText = ds_list_create();
 ds_list_add(global.CronoSpriteList,Crono_LeftFace);
