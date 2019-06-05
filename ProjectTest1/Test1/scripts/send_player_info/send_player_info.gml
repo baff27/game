@@ -12,7 +12,7 @@ var Room_Level = argument[3];
 var createAcc = "CREATE_ACCOUNT";
 buffer_seek(buffer,buffer_seek_start,0);//Checks the beginning of the buffer
 buffer_write(buffer,buffer_string,createAcc+",");//Writes command to create an account
-buffer_write(buffer,buffer_string,Username+",");//Username
+buffer_write(buffer,buffer_string,string_upper(Username)+",");//Username
 buffer_write(buffer,buffer_string,Password+",");//Password
 buffer_write(buffer,buffer_string,"666,");//Current Token
 buffer_write(buffer,buffer_string,Room_Level+",");//Room Level

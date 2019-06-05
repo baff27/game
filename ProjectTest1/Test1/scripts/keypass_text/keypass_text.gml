@@ -8,7 +8,7 @@ var levelKey = "";
 if(trigger != 0){
 	switch (room_text){
 		case "Level_1":
-			levelKey = "open";
+			levelKey = "open";//Rewrite this fat bitch to use string_pos("open",str);
 			i=trigger;
 			i++;
 			if(string_lower(string_char_at(text,i))==string_char_at(levelKey,1)){
@@ -20,10 +20,16 @@ if(trigger != 0){
 						i++;
 						if(string_lower(string_char_at(text,i))==string_char_at(levelKey,4)){
 							obj_Door.sprite_index = magic_Door_Open;
-						}
-					}
-				}
-			}
+							ChatBarTest.chat_text = "";
+							keyboard_string = "";
+						}else {ChatBarTest.chat_text = "";
+							keyboard_string = "";}
+					}else{ChatBarTest.chat_text = "";
+							keyboard_string = "";}
+				}else{ChatBarTest.chat_text = "";
+							keyboard_string = "";}
+			}else{ChatBarTest.chat_text = "";
+							keyboard_string = "";}
 			break;
 		case "Level_2":
 			
@@ -41,7 +47,4 @@ if(trigger != 0){
 			
 			break;
 	}
-}
-else{
-	//run script to send message to the chat	
 }

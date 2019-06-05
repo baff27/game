@@ -21,5 +21,6 @@ if(close and global.e_state and !ChatBarTest.chat_typing){
 	var str4 = "\n\nTo open the door, read the clues on the map, and\ntype the secret code with a \"%\" sign.\nEx: \"%pass\"";
 	//var sh = string_height(str3);
 	bigStr = str2+str3+str4;
+	show_debug_message(string(string_height(bigStr)));
 	draw_text(xx+256,yy+160,bigStr);
 }

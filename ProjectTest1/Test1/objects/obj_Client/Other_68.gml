@@ -28,6 +28,8 @@ switch( net_event_type ) {
 				}
 				else {
 					global.token = message;
+					obj_Client.client_Username = PlayerLoad_Username_Box.usrName_text;
+					obj_Client.client_Password = PlayerLoad_Password_Box.Password_text;
 				}
 				show_debug_message("Token Recieved: " + global.token);
 				IncomingData = 0;
@@ -38,6 +40,11 @@ switch( net_event_type ) {
 				buffer_seek( buffer, buffer_seek_start, 0 );
 				var message = buffer_read(buffer,buffer_string);
 				show_debug_message("Info Recieved: " + message);
+				var ls = string_split(message, ",");
+				show_debug_message("Split String 1: " + string(ds_list_find_value(ls,0)));
+				obj_Client.client_Room_Level = ds_list_find_value(ls,0);
+				show_debug_message("Split String 2: " + string(ds_list_find_value(ls,1)));
+				obj_Client.client_Character = ds_list_find_value(ls,1);
 				IncomingData = 0;
 				loadchar = false;
 				break;
@@ -46,6 +53,11 @@ switch( net_event_type ) {
 				buffer_seek( buffer, buffer_seek_start, 0 );
 				var ran = buffer_read(buffer,buffer_string);
 				show_debug_message("Recieved: " + ran);
+				if(string_pos("CHAT_RECV",ran) != 0){
+					add_text_list(ran);
+				}else{
+					//Add something for player movements
+				}
 				break;
 		}
 		break;

@@ -1,7 +1,7 @@
 window_set_fullscreen(false);
 window_set_size(1024,768);
 window_set_cursor(cr_arrow);
-ChatBarTest.chat_text = "";
+//ChatBarTest.chat_text = "";
 //xstart = 904;
 //ystart = 1024;
 //xstart = 940; //Arbitrary Values. Don't know just yet

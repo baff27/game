@@ -26,7 +26,7 @@ if(pass_typing){
 		pass_typing = false;
 		pass_blink = false;
 		alarm[0] = -1;
-		if (string_length(Password_text) > 3){
+		if (string_length(Password_text) >= 0){
 			obj_join_game_Btn.join_game_btn_Active = true;
 		}
 		

@@ -3,7 +3,7 @@
 if(obj_join_game_Btn.image_index == 0){
 	if(room == asset_get_index("Player_Load")){
 		login(PlayerLoad_Username_Box.usrName_text,PlayerLoad_Password_Box.Password_text);//Attempt to login
-		alarm[0] = 10*room_speed;
+		alarm[0] = 1*room_speed;
 		show_debug_message(string(alarm_get(0)));
 		/*var count = 0;
 		while(obj_Client.token != false){
@@ -17,7 +17,7 @@ if(obj_join_game_Btn.image_index == 0){
 		*/
 		//get_player_info(PlayerLoad_Username_Box.usrName_text);//Retrieve Data from Server
 		show_debug_message("Player Data being retrieved from Server at some point, \n\tScript does nothing yet");
-		obj_Client.client_Room_Level = "Level_2";//For Local Testing Purposes
+		//obj_Client.client_Room_Level = "Level_2";//For Local Testing Purposes
 	}else{
 		send_player_info(obj_Client.client_Username,obj_Client.client_Password,obj_Client.client_Character,obj_Client.client_Room_Level);	
 		//login(obj_Client.client_Username,obj_Client.client_Password);

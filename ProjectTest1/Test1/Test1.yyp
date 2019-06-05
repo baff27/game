@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "2086e612-148f-42ce-9bdc-7c583338d541",
+            "Value": {
+                "id": "4e570178-b551-4885-af2f-ab79c9e34f92",
+                "resourcePath": "scripts\\string_split\\string_split.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "22b11696-0382-4ac5-b55a-18fdc8492d35",
             "Value": {
                 "id": "a5989e09-bb12-4812-8183-7fd5fe94b022",
@@ -671,6 +679,14 @@
             }
         },
         {
+            "Key": "70c3a6ea-f402-438c-908f-2b5c13f3fb91",
+            "Value": {
+                "id": "b67bb92a-599a-4ba5-9855-63e9de8a27d7",
+                "resourcePath": "scripts\\send_message\\send_message.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "713f4881-5a45-4539-bd81-c7b29c1b38a3",
             "Value": {
                 "id": "1e37b34b-5b62-4959-9753-7d0fe3321edc",
@@ -780,6 +796,14 @@
                 "id": "f8f96c31-3e77-4959-bc38-bc21d9143d9c",
                 "resourcePath": "sprites\\Frog_DownFace\\Frog_DownFace.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82bbb165-f22d-4d62-b38c-2b44a80f1f0b",
+            "Value": {
+                "id": "5c56a347-c281-4411-8da8-88d391bb00d9",
+                "resourcePath": "scripts\\add_text_list\\add_text_list.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1028,6 +1052,14 @@
                 "id": "c563187d-ecc7-4624-a252-3e764ea41bac",
                 "resourcePath": "objects\\obj_Robo\\obj_Robo.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b4bfcbe7-4848-4714-879a-73378a7fd0fc",
+            "Value": {
+                "id": "0bd6bdaf-09c5-4349-8baf-0b59194a1658",
+                "resourcePath": "fonts\\font_messages\\font_messages.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1431,6 +1463,14 @@
             }
         },
         {
+            "Key": "ecd57d8c-9196-4344-b378-d60ca04d0555",
+            "Value": {
+                "id": "0a129cf3-48c8-47bc-8c71-3eeb8baee561",
+                "resourcePath": "scripts\\update_pos\\update_pos.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ed0896b1-f1d6-49c6-84e5-56dd8f7159fa",
             "Value": {
                 "id": "f34b4e72-2873-4d61-bb0b-e712fd129c77",
@@ -1594,7 +1634,11 @@
         "8473e81d-2338-4413-aba7-0791f4049c11",
         "f2e7cb15-9414-409d-9f51-ddc68a52bd53",
         "bac798c9-26d2-4f4a-ace3-ec302de79e28",
-        "77b97572-72cd-478c-9e4c-7e5030fca85a"
+        "77b97572-72cd-478c-9e4c-7e5030fca85a",
+        "2086e612-148f-42ce-9bdc-7c583338d541",
+        "82bbb165-f22d-4d62-b38c-2b44a80f1f0b",
+        "70c3a6ea-f402-438c-908f-2b5c13f3fb91",
+        "ecd57d8c-9196-4344-b378-d60ca04d0555"
     ],
     "tutorial": ""
 }

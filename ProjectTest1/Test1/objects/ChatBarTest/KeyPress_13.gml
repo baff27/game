@@ -18,5 +18,8 @@ if(visible == 0){
 	//Run script to check the text
 	keypass_text(chat_text,obj_Player.player_room_level);
 	//Send message to chat
+	send_message(global.token,chat_text,obj_Player.player_username);
+	chat_text = "";
+	keyboard_string = "";
 	//obj_user.name = text;
 }

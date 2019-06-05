@@ -1,14 +1,18 @@
 /// @description Checks if username is taken
 // You can write your code in this editor
+if(!ds_list_empty(global.global_Username_list)){
+	global.global_Username_list = string_split(ds_list_find_value(global.global_Username_list,","));
+}else{ds_list_add(global.global_Username_list,"ADMIN");ds_list_add(global.global_Username_list,"MOD");ds_list_add(global.global_Username_list,"MODERATOR");ds_list_add(global.global_Username_list,"ADMINISTRATOR");}
 var i = 0;
 typing = Username_Box.typing;
 usrName_text = Username_Box.usrName_text;
 //obj_Client.global_Username_list;
-var gbListSize = ds_list_size(temp_Global_Username_list);
+var gbListSize = ds_list_size(global.global_Username_list);
+var gList = global.global_Username_list;
 if(typing or string_length(usrName_text) > 0){
 	while (i < gbListSize){
 		
-		if (string_lower(usrName_text) == string_lower(ds_list_find_value(temp_Global_Username_list,i))){
+		if (string_lower(usrName_text) == string_lower(ds_list_find_value(gList,i))){
 			 nameMatch = true;
 			 break;
 		}
