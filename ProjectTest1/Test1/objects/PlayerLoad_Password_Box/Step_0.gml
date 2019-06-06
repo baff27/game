@@ -22,13 +22,15 @@ if(pass_typing){
 	if(pass_Del_Timer !=2){
 		pass_Del_Timer++;	
 	}
+	if (string_length(Password_text) > 0){
+			obj_join_game_Btn.join_game_btn_Active = true;
+			obj_join_game_Btn.image_index = 0;
+	}
 	if (keyboard_check(vk_enter) || (mouse_check_button(mb_left) && !point_in_rectangle(mouse_x,mouse_y,420,341,667,378))){
 		pass_typing = false;
 		pass_blink = false;
 		alarm[0] = -1;
-		if (string_length(Password_text) >= 0){
-			obj_join_game_Btn.join_game_btn_Active = true;
-		}
+		event_perform_object(obj_join_game_Btn,ev_mouse,ev_left_press);
 		
 		//obj_user.name = text;
 	}

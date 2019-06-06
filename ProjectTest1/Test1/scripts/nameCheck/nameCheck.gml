@@ -1,4 +1,4 @@
-var socket = obj_Client.socket;
+/*var socket = obj_Client.socket;
 var buffer = obj_Client.buffer;
 var sendID = "NAME_LIST"; //Value we are sending to the server
 //name_list = "";
