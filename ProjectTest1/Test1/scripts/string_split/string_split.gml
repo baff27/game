@@ -19,4 +19,20 @@ while(p != 0){
 
 ds_list_add(rl,string_letters(s));
 //show_debug_message(s);
+var temp = ds_list_create();
+for(var i =0;i<ds_list_size(rl);i++){
+	if(i==0){
+		ds_list_add(temp,ds_list_find_value(rl,0));
+	}else{
+		var pos = string_pos(" ",ds_list_find_value(rl,i));
+		if(pos != 0){
+			ds_list_add(temp,string_delete(ds_list_find_value(rl,i),pos,1));
+		}
+		else{
+			ds_list_add(temp,ds_list_find_value(rl,i));
+		}
+	}
+}
+rl = temp;
+temp = noone;
 return rl;

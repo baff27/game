@@ -6,7 +6,7 @@ var port = 25565; //Port to connect through
 socket = network_create_socket(type);
 
 //Uncomment this later
-connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
+//connection = network_connect_raw(socket,ip,port); //Creates a connection to our socket, server, and port
 
 
 //Buffer information for sending Data

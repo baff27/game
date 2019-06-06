@@ -4,5 +4,5 @@ show_debug_message("Inside alarm");
 show_debug_message(string(current_time));
 get_player_info(PlayerLoad_Username_Box.usrName_text);//Retrieve Data from Server
 alarm[0] = -1;
-alarm[1] = 1*room_speed;
+alarm[1] = 5*room_speed;
 //alarm[0] = -1;

@@ -3,7 +3,7 @@
 if(obj_join_game_Btn.image_index == 0){
 	if(room == asset_get_index("Player_Load")){
 		login(PlayerLoad_Username_Box.usrName_text,PlayerLoad_Password_Box.Password_text);//Attempt to login
-		alarm[0] = 1*room_speed;
+		alarm[0] = 5*room_speed;
 		show_debug_message(string(alarm_get(0)));
 		/*var count = 0;
 		while(obj_Client.token != false){

@@ -7,8 +7,8 @@ if(chat_typing){
 	draw_set_halign(fa_left);
 	draw_set_valign(fa_middle);
 	if (chat_blink){
-		if(string_width(chat_text) > 212){
-			var chatTextOffset = string_width(chat_text)-212;
+		if(string_width(chat_text) > 424){
+			var chatTextOffset = string_width(chat_text)-424;
 			draw_text_ext_transformed(x+1-chatTextOffset,y,chat_text+"|",-1,3000,0.5,0.5,0);
 		}else{
 			draw_text_ext_transformed(x+1,y,chat_text+"|",-1,3000,0.5,0.5,0);
@@ -16,8 +16,8 @@ if(chat_typing){
 	}
 }
 if (!chat_blink){//This should be unnecessary because it will be sending it to the server/keypassCheck
-	if(string_width(chat_text) > 212){
-			var chatTextOffset = string_width(chat_text)-212;
+	if(string_width(chat_text) > 424){
+			var chatTextOffset = string_width(chat_text)-424;
 			draw_text_ext_transformed(x+1-chatTextOffset,y,chat_text,-1,3000,0.5,0.5,0);
 		}else{
 			draw_text_ext_transformed(x+1,y,chat_text,-1,3000,0.5,0.5,0);

@@ -10,8 +10,9 @@ switch( net_event_type ) {
 			case 1: // userlist
 				var buffer = ds_map_find_value( async_load, "buffer" );
 				buffer_seek( buffer, buffer_seek_start, 0 );
-				global.global_Username_list = buffer_read(buffer,buffer_string);
-				show_debug_message("User List Recieved: " + global.global_Username_list);
+				ds_list_add(global.global_Username_list,buffer_read(buffer,buffer_string));
+				var pos = ds_list_size(global.global_Username_list);
+				show_debug_message("User List Recieved: " + ds_list_find_value(global.global_Username_list,pos-1));
 				IncomingData = 0;
 				userlist = false;
 				break;
