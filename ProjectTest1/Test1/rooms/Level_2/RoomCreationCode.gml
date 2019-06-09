@@ -1,6 +1,7 @@
 window_set_fullscreen(false);
 window_set_size(1024,768);
 window_set_cursor(cr_arrow);
+obj_Player.player_room_level = "Level_2";
 //ChatBarTest.chat_text = "";
 //xstart = 904;
 //ystart = 1024;

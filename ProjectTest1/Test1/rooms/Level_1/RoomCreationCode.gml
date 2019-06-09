@@ -1,6 +1,7 @@
 window_set_fullscreen(false);
 window_set_size(1024,768);
 window_set_cursor(cr_arrow);
+obj_Player.player_room_level = "Level_1";
 //xstart = 940; //Arbitrary Values. Don't know just yet
 //ystart = 1040;//Arbitrary Values. Don't Know just yet
 //show_debug_message(object_get_sprite(obj_Player));

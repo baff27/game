@@ -18,11 +18,7 @@ if(sprite_index == magic_Door_Open and place_meeting(x,y-15,obj_Player)){
 			room_goto(indexRoom);
 			break;
 		case "Level_3":
-			indexRoom = asset_get_index("Level_4");
-			room_goto(indexRoom);
-			break;
-		case "Level_4":
-			indexRoom = asset_get_index("Level_Final");
+			indexRoom = asset_get_index("Level_1");
 			room_goto(indexRoom);
 			break;
 	}
